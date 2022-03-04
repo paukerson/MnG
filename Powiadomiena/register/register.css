@@ -1,0 +1,102 @@
+
+/* GLOBAL */
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #f4f0e8;
+}
+
+
+
+.mainContainer{
+    background-color: #f9fbff;
+    width: 94%;
+    height: 60vh;
+    margin-top: 20vh;
+    margin-left: 3%;
+    box-shadow: #777 3px 5px 5px;
+    position: relative;
+    min-height: 450px;
+}
+
+h1{
+    transform: translate(-50%,120%);
+    margin-left: 50%;
+    text-align: center;
+    font-size: 36px;
+    width: 100%;
+}
+
+input[type=text], input[type=password], input[type=email], button{
+    background-color: #f9fbff;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+input[type=text], input[type=password], input[type=email]{
+    border: 0;
+    border-bottom: 1px #444 solid;
+}
+
+.smallContainer button{
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+label{
+    margin-left: 15px;
+    margin-top: 10px;
+    nav-index: 4;
+}
+
+
+.smallContainer{
+    width: 86%;
+    margin-left: 7%;
+    height: 20vh;
+    margin-top: 12vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+input:focus{
+    background-color: #f4f0e8;
+    outline: 0;
+    border-bottom: 1px solid #444;
+    box-sizing: border-box;
+}
+
+input[type=checkbox]{
+    appearance: none;
+    background-color: #f4f0e8;
+    border: 1px solid #444;
+    height: 16px;
+    width: 16px;
+    transform: translateY(3px);
+}
+
+input[type=checkbox]:checked{
+    background-color: #333;
+}
+
+#loginBtn{
+    position: absolute;
+    bottom: 20px;
+    left: 8vw;
+    font-size: 18px;
+}

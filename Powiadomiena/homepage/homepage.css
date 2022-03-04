@@ -1,0 +1,52 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: center  center no-repeat fixed url(Images/man-hands-palm-praying-worship-cross-eucharist-therapy-bless-god-helping-hope-faith-christian-religion-concept-raising-up-162020217.jpg);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+
+h1{
+    font-weight: 500;
+    font-size: 30px;
+    mix-blend-mode: difference;
+
+}
+p{
+    font-size: 18px;
+}
+
+#mainFooter{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    backdrop-filter: blur(5px) brightness(80%);
+}
+
+h1{
+    padding: 10px;
+}
+
+#mainFooter, x:-moz-any-link {
+    background-color: rgba(0,0,0,.2);
+}
+
+.container{
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
+}
+#tip{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+
+}
