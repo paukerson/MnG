@@ -5,34 +5,32 @@ html{
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
-    background: center  center no-repeat fixed url(Images/man-hands-palm-praying-worship-cross-eucharist-therapy-bless-god-helping-hope-faith-christian-religion-concept-raising-up-162020217.jpg);
+    background: center  center no-repeat fixed url(../Images/man-hands-palm-praying-worship-cross-eucharist-therapy-bless-god-helping-hope-faith-christian-religion-concept-raising-up-162020217.jpg);
     background-size: cover;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }   
 
 h1{
     font-weight: 500;
     font-size: 30px;
-    mix-blend-mode: difference;
-
+    font-weight: 400;
+    margin: 10px 0  5px 0;
 }
 p{
     font-size: 18px;
+    font-weight: 300;
 }
 
 #mainFooter{
     position: fixed;
     bottom: 0;
-    width: 100%;
-    height: 20%;
-    backdrop-filter: blur(5px) brightness(80%);
-}
-
-h1{
-    padding: 10px;
+    width: 100vw;
+    height: 150px;
+    backdrop-filter: blur(10px) brightness(60%);
+    color: #fff;
 }
 
 #mainFooter, x:-moz-any-link {
@@ -47,6 +45,7 @@ h1{
 #tip{
     position: fixed;
     bottom: 5px;
-    right: 5px;
-
+    right: 10px;
+    opacity: .7;
+    font-weight: 200;
 }
