@@ -72,7 +72,9 @@
     }
 
     .message{
+        overflow-y: scroll;
         padding: 10px 15px;
         line-height: 150%;
         word-spacing: 2px;
+        height: calc(70vh - 106px);
     }
