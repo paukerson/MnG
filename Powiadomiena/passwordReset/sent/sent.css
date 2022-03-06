@@ -1,0 +1,45 @@
+
+/* GLOBAL */
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #f4f0e8;
+}
+
+
+
+.mainContainer{
+    background-color: #f9fbff;
+    width: 94%;
+    height: 250px;
+    margin-top: 30vh;
+    margin-left: 3%;
+    box-shadow: #777 3px 5px 5px;
+    position: relative;
+    border-radius: 5px;
+}
+
+p{
+    line-height: 1.5;
+    padding: 20px;
+    word-spacing: 2px;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+}
+
+@media only screen and (max-width: 360px){
+    p{
+        font-size: 22px;
+    }
+}
+
