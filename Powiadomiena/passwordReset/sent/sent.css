@@ -12,18 +12,19 @@ html{
 }
 
 body{
-    background-color: #f4f0e8;
+    background-color: #e4eaed;
 }
 
 
 
 .mainContainer{
+    position: fixed;
     background-color: #f9fbff;
-    width: 94%;
-    height: 250px;
-    margin-top: 30vh;
-    margin-left: 3%;
-    box-shadow: #777 3px 5px 5px;
+    width: 320px;
+    height: 280px;
+    left: calc(50% - 160px);
+    top: 30vh;
+    box-shadow: #777 2px 2px 5px;
     position: relative;
     border-radius: 5px;
 }
@@ -36,10 +37,3 @@ p{
     font-weight: 300;
     text-align: center;
 }
-
-@media only screen and (max-width: 360px){
-    p{
-        font-size: 22px;
-    }
-}
-

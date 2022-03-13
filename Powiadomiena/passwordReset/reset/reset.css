@@ -13,7 +13,7 @@ html{
 }
 
 body{
-    background-color: #f4f0e8;
+    background-color: #e4eaed;
 }
 
 
@@ -24,7 +24,7 @@ body{
     height: 60vh;
     margin-top: 20vh;
     margin-left: 3%;
-    box-shadow: #777 3px 5px 5px;
+    box-shadow: #777 2px 2px 5px;
     position: relative;
     min-height: 450px;
     border-radius: 5px;
@@ -48,9 +48,13 @@ input[type=password], button{
     font-size: 18px;
 }
 
+button{
+    border: #232a34 solid 1px;
+}
+
 input[type=password]{
     border: 0;
-    border-bottom: 1px #444 solid;
+    border-bottom: 1px #232a34 solid;
 }
 
 .smallContainer button{
@@ -69,7 +73,7 @@ input[type=password]{
 }
 
 input:focus{
-    background-color: #f4f0e8;
+    background-color: #e4eaed;
     outline: 0;
     border-bottom: 1px solid #444;
     box-sizing: border-box;

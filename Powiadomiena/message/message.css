@@ -10,7 +10,7 @@
   }
 
   body{
-    background-color: #f4f0e8;
+    background-color: #e4eaed;
   }
 
     /* NOTIFICATIONS */
@@ -43,8 +43,8 @@
     .divider{
         height: 1px;
         width: 100%;
-        background-color: #000;
-        opacity: .1;
+        background-color: #232a34;
+        opacity: .2;
     }
 
 
@@ -58,7 +58,7 @@
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color: hsla(0, 0%, 0%, .7)
+        background-color: hsla(215, 20%, 17%, .8)
     }
 
     .messageCanvas{
@@ -77,4 +77,10 @@
         line-height: 150%;
         word-spacing: 2px;
         height: calc(70vh - 106px);
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .message::-webkit-scrollbar{
+        display: none;
     }

@@ -24,7 +24,7 @@ body{
     height: 60vh;
     margin-top: 20vh;
     margin-left: 3%;
-    box-shadow: #777 3px 5px 5px;
+    box-shadow: #777 2px 2px 5px;
     position: relative;
     min-height: 450px;
     border-radius: 5px;
@@ -38,25 +38,32 @@ h1{
     width: 100%;
 }
 
-input[type=text], input[type=password], input[type=email], button{
+input[type=text], input[type=email]{
     background-color: #f9fbff;
-    width: 100%;
-    display: inline-block;
+    width: 65%;
     box-sizing: border-box;
     padding: 10px 5px;
-    margin-bottom: 12px;
-    font-size: 18px;
+    margin-bottom: 20px;
+    font-size: 16px;
 }
 
-input[type=text], input[type=password], input[type=email]{
+button{
+    border: #232a34 solid 1px;
+    width: 30%;
+    background-color: #f9fbff;
+    padding: 10px 5px;
+    margin-left: 3%;
+}
+
+#passwordBtn{
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 0;
+}
+
+input[type=text], input[type=email]{
     border: 0;
-    border-bottom: 1px #444 solid;
-}
-
-.smallContainer button{
-    cursor: pointer;
-    margin-top: 20px;
-    
+    border-bottom: 1px #232a34 solid;
 }
 
 label{
@@ -65,14 +72,10 @@ label{
     nav-index: 4;
 }
 
-button{
-    border: #232a34 solid 1px;
-}
-
 
 .smallContainer{
-    width: 86%;
-    margin-left: 7%;
+    width: 90%;
+    margin-left: 5%;
     height: 20vh;
     margin-top: 12vh;
     display: flex;
@@ -82,27 +85,7 @@ button{
 
 input:focus{
     background-color: #e4eaed;
-    outline: 0;
-    border-bottom: 1px solid #444;
+    outline: none;
+    border-bottom: 1px solid #232a34;
     box-sizing: border-box;
-}
-
-input[type=checkbox]{
-    appearance: none;
-    background-color: #e4eaed;
-    border: 1px solid #444;
-    height: 16px;
-    width: 16px;
-    transform: translateY(3px);
-}
-
-input[type=checkbox]:checked{
-    background-color: #333;
-}
-
-#loginBtn{
-    position: absolute;
-    bottom: 20px;
-    left: 8vw;
-    font-size: 18px;
 }
